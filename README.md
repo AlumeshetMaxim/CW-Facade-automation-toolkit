@@ -2,11 +2,11 @@
 
 Open-source automation toolkit for CAD, BIM, facade engineering and curtain wall workflows.
 
-This project focuses on automating repetitive tasks in facade and cladding planning, including CAD drawing processing, glass and profile naming, MTO/BOM generation, revision comparison, PDF publishing, viewport creation and fabrication package checking.
+This project focuses on automating repetitive tasks in facade and cladding planning: CAD drawing processing, glass and profile naming, MTO/BOM generation, revision comparison, PDF publishing, DWG data extraction, Excel schedule checks, STEP validation, Rhino Make2D workflows, Trimble/SolidWorks workflow notes and fabrication package checking.
 
 The toolkit is based on Python, CAD APIs, Excel workflows, Visual Studio / VS Code and AI-assisted development with Codex.
 
-See also: [Extended overview](README_EXTENDED.md), [Script catalog](docs/script_catalog.md), [Roadmap](docs/roadmap.md), and [Privacy/Sanitization](docs/privacy_and_sanitization.md).
+See also: [Extended overview](README_EXTENDED.md), [Project structure](docs/project_structure.md), [Script catalog](docs/script_catalog.md), [Roadmap](docs/roadmap.md), and [Privacy/Sanitization](docs/privacy_and_sanitization.md).
 
 ## Why this project exists
 
@@ -22,7 +22,7 @@ Codex and AI-assisted development make it possible to turn practical engineering
 - Help generate and validate MTO/BOM data from drawings and schedules.
 - Support glass, profile and unit naming workflows.
 - Assist with revision comparison and production package checks.
-- Provide examples for AutoCAD, BricsCAD, Rhino/Grasshopper and Excel-based workflows.
+- Provide examples for AutoCAD, BricsCAD, Rhino, Excel, PDF, STEP and related construction tools.
 - Make practical automation accessible to facade planners and engineers who are not full-time software developers.
 
 ## Example automation areas
@@ -34,6 +34,8 @@ Codex and AI-assisted development make it possible to turn practical engineering
 - Revision comparison between drawing packages.
 - Fabrication package validation.
 - Excel schedule processing.
+- PDF package splitting, merging, marking and cleanup.
+- STEP/STP checking and file-management workflows.
 - AI-assisted script generation for construction workflows.
 
 ## Current modules
@@ -52,6 +54,7 @@ These modules use simplified, non-confidential sample data. They are intended as
 - AutoCAD / BricsCAD APIs
 - Rhino / Grasshopper workflows
 - Excel / CSV data processing
+- PDF and STEP/STP workflow automation
 - OpenAI / Codex-assisted development
 
 ## Status
